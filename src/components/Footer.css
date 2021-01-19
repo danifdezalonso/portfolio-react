@@ -45,16 +45,6 @@
     opacity: 0.75;
 }
 
-.post__footer{
-    background-color: white;
-    width: 1024px;
-    margin: auto;
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
-    font-size: 0.75rem;
-}
-
 @media screen and (max-width: 600px) {
     .footer{
         margin-top: 0.5rem;
@@ -75,8 +65,5 @@
         text-decoration: none;
         color: white;
         font-size: 1rem;
-    }
-    .post__footer {
-        display: none;
     }
 }

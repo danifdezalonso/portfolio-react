@@ -23,28 +23,31 @@ function Taxi() {
       </div>
       <div className="casestudy__highlightedsection taxi--section">
         <div className="casestudy">
-          <p className="casestudy__section--title">The problem</p>
-          <p>
-            My research highlighted three problems that could all be solved in
-            the same way:
-          </p>
-          <ul>
-            <li>
-              The young and less wealthy do not use taxis because they consider
-              it a luxury.{" "}
-            </li>
-            <li>
-              There are isolated areas, such as villages, where the only way of
-              travelling there is by taxi or personal vehicle, but not everyone
-              can afford their own car and taxi trips can be very expensive.{" "}
-            </li>
-            <li>
-              Fixed fares, in journeys from travel hubs such as airports, make
-              the price of a trip more expensive. However, the majority of trips
-              made from the airport are to the same area, so by sharing a taxi,
-              the price decreases considerably.{" "}
-            </li>
-          </ul>
+          <div className="container">
+            <p className="casestudy__section--title">The problem</p>
+            <p>
+              My research highlighted three problems that could all be solved in
+              the same way:
+            </p>
+            <ul>
+              <li>
+                The young and less wealthy do not use taxis because they
+                consider it a luxury.{" "}
+              </li>
+              <li>
+                There are isolated areas, such as villages, where the only way
+                of travelling there is by taxi or personal vehicle, but not
+                everyone can afford their own car and taxi trips can be very
+                expensive.{" "}
+              </li>
+              <li>
+                Fixed fares, in journeys from travel hubs such as airports, make
+                the price of a trip more expensive. However, the majority of
+                trips made from the airport are to the same area, so by sharing
+                a taxi, the price decreases considerably.{" "}
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
       <div className="container">

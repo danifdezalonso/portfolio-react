@@ -58,6 +58,9 @@
     display: flex;
     font-size: 1.25rem;
 }
+.header__navigation__list>li>a{
+    margin-top: 0;
+}
 
 .header__navigation__list>a{
     padding: 1rem;

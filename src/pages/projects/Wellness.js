@@ -35,42 +35,45 @@ function Wellness() {
       </div>
       <div className="casestudy__highlightedsection wellness--section">
         <div className="casestudy">
-          <p className="casestudy__section--title">El problema</p>
-          <p>
-            Se ha creado un clima de inseguridad en las calles donde la
-            población no puede ir por la calle con seguridad y libertad,
-            sobretodo en el sexo femenino.
-          </p>
-          <p>
-            En Barcelona, las cifras de delincuencia van en aumento,
-            disparándose a principios de 2018 de manera repentina, aumentado un
-            19,4%, con una media de 33 al día; aquellos en los que solo se
-            emplea fuerza sobre las cosas —no las personas—, el aumento es del
-            20,1, con 25 casos al día.
-          </p>
-          <p>Datos sobre el problema:</p>
-          <ul>
-            <li>
-              Infracciones totales. El año pasado se cometieron 194.212 delitos
-              frente a los 165.640 del año anterior (17,2%).
-            </li>
-            <li>
-              Robos con violencia. El año pasado se cometieron 12.277 robos
-              violentos frente a los 10.285 del año anterior (19,4%).
-            </li>
-            <li>
-              Robos con fuerza. El año pasado se cometieron 9.360 robos con
-              fuerza a los 7.793 del año anterior (20,1%).
-            </li>
-            <li>
-              Hurtos. El año pasado se cometieron 109.154 hurtos frente a los
-              93.460 del año anterior (16,8%).
-            </li>
-            <li>
-              Delitos sexuales. El año pasado se cometieron 764 delitos sexuales
-              frente a los 645 del año anterior (18,4%)
-            </li>
-          </ul>
+          {" "}
+          <div className="container">
+            <p className="casestudy__section--title">El problema</p>
+            <p>
+              Se ha creado un clima de inseguridad en las calles donde la
+              población no puede ir por la calle con seguridad y libertad,
+              sobretodo en el sexo femenino.
+            </p>
+            <p>
+              En Barcelona, las cifras de delincuencia van en aumento,
+              disparándose a principios de 2018 de manera repentina, aumentado
+              un 19,4%, con una media de 33 al día; aquellos en los que solo se
+              emplea fuerza sobre las cosas —no las personas—, el aumento es del
+              20,1, con 25 casos al día.
+            </p>
+            <p>Datos sobre el problema:</p>
+            <ul>
+              <li>
+                Infracciones totales. El año pasado se cometieron 194.212
+                delitos frente a los 165.640 del año anterior (17,2%).
+              </li>
+              <li>
+                Robos con violencia. El año pasado se cometieron 12.277 robos
+                violentos frente a los 10.285 del año anterior (19,4%).
+              </li>
+              <li>
+                Robos con fuerza. El año pasado se cometieron 9.360 robos con
+                fuerza a los 7.793 del año anterior (20,1%).
+              </li>
+              <li>
+                Hurtos. El año pasado se cometieron 109.154 hurtos frente a los
+                93.460 del año anterior (16,8%).
+              </li>
+              <li>
+                Delitos sexuales. El año pasado se cometieron 764 delitos
+                sexuales frente a los 645 del año anterior (18,4%)
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
       <div className="container">

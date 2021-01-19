@@ -48,10 +48,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="post__footer">
-        <p className="post__footer__description">©Dani Fernández</p>
-        <p className="post_footer__date">2021</p>
-      </div>
     </>
   );
 };
