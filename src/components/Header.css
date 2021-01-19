@@ -75,8 +75,8 @@
     font-weight: 600;
     color:black;
     text-decoration: none;
-
 }
+
 @media screen and (max-width: 600px) {
     .header{
         margin-left: 0.25rem;
@@ -92,5 +92,18 @@
     }
     .header__navigation__list>li:last-child {
         margin-right: 0rem;
+    }
+    #logo{
+                min-width: 70px;
+
+    }
+    #logo>a{
+        font-size: 1rem;
+    }
+    .header__navigation__list>li{
+        padding: 0.5rem;
+    }
+    #aboutli{
+        display: none;
     }
 }

@@ -16,10 +16,10 @@ const Header = () => {
         <div className="header__navigation">
           <ul className="header__navigation__list">
             <Link to="/about">
-              <li>About</li>
+              <li id="aboutli">About</li>
             </Link>
             <Link to="/projects">
-              <li>Projects</li>
+              <li id="projectli">Projects</li>
             </Link>
             <a
               target="_blank"

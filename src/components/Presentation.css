@@ -93,11 +93,6 @@
     }
 
     .description__photo>img {
-        position: absolute;
-        width: 120px;
-        top: 100px;
-        right: 10px;
-        z-index: -1;
-        opacity: 0.75;
+        display: none;
     }
 }
