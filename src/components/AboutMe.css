@@ -1,0 +1,99 @@
+.aboutme {
+    max-width: 1024px;
+    margin-top: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 50em;
+}
+
+.aboutme__header {
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.aboutme__description>p {
+    font-size: 1.25rem;
+    margin: 1.5rem 0rem;
+
+}
+
+.aboutme__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    background-color: white;
+    border-radius: 5px;
+    margin: 1rem;
+    border: 0.1em solid transparent;
+    box-sizing: border-box;
+    border: 0.15rem solid black;
+    transition: all 0.2s;
+    font-size: 1.25rem;
+    overflow: visible;
+    text-decoration: none;
+}
+.aboutme__links>a{
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: black;
+    cursor: pointer;
+}
+.personallink{
+    text-decoration: none;
+}
+.btn>a:hover {
+    color: white;
+}
+
+.aboutme__iconsgrid {
+    margin: 1rem 5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aboutme__icons {
+    margin: 1rem 2rem;
+}
+
+@media screen and (max-width: 600px) {
+    .aboutme {
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+    }
+
+    .aboutme__header {
+        margin-top: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .aboutme__description>p {
+        font-size: 1rem;
+        margin: 1.5rem 0rem;
+
+    }
+
+    .aboutme__iconsgrid {
+        margin-top:0.5rem;
+        margin-left:0;
+        margin-right:0;
+        display: flex;
+        flex-wrap: nowrap;
+        height: auto;
+        overflow-y: auto;
+    }
+}

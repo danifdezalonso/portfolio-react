@@ -1,0 +1,19 @@
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1024px;
+    margin-top: 1rem;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .projects{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    };
+}

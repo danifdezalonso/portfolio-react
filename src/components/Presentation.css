@@ -1,0 +1,103 @@
+.description {
+    margin-top: 2rem;
+    display: flex;
+    max-width: 1024px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+}
+
+.description__card {
+    width: 80%;
+}
+
+.description__personal--header {
+    font-size: 2.5rem;
+    font-weight: 700;
+    background: -webkit-linear-gradient(90deg, #ad2570, #d5344d);
+    background: linear-gradient(90deg, #ad2570, #d5344d);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.description__personal--subheader {
+    font-size: 2rem;
+    margin-top: 0.75rem;
+    font-weight: 400;
+    background: -webkit-linear-gradient(90deg, #ad2570, #d5344d);
+    background: linear-gradient(90deg, #ad2570, #d5344d);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.description__work {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px white;
+}
+
+.description__photo {
+    margin-left: -10%;
+    z-index: -1;
+}
+
+.description__photo>img {
+    object-fit: cover;
+    width: 300px;
+    height: 500px;
+    border-radius: 1rem;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(109, 109, 109, 0.06),
+        0 22.3px 17.9px rgba(108, 107, 107, 0.072),
+        0 41.8px 33.4px rgba(92, 92, 92, 0.086),
+        0 100px 80px rgba(85, 85, 85, 0.12);
+}
+
+@media screen and (max-width: 600px) {
+    .description {
+        margin: 0.5rem;
+        margin-left: 0.25rem;
+        margin-right: 0.25rem;
+        margin-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .description__card {
+        width: inherit;
+    }
+
+    .description__personal--header {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-size: 1.5rem;
+        width: 100%;
+        max-width: 18rem;
+    }
+
+    .description__personal--subheader {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        font-size: 1rem;
+        width: 100%;
+
+    }
+
+    .description__work {
+        margin-top: 1rem;
+        font-size: 1rem;
+        text-shadow: 2px 2px white;
+    }
+
+    .description__photo>img {
+        position: absolute;
+        width: 120px;
+        top: 100px;
+        right: 10px;
+        z-index: -1;
+        opacity: 0.75;
+    }
+}

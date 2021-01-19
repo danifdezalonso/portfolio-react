@@ -1,0 +1,142 @@
+.wellness {
+    color: purple;
+}
+
+.container {
+    max-width: 1024px;
+    margin-top: 1rem;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.casestudy{
+    max-width: 50em;
+    margin: auto;
+}
+
+.casestudy > ul {
+    margin-top: 1rem;
+}
+
+.casestudy>ul>li {
+    margin: 0rem 0rem 0.5rem 0rem;
+}
+.casestudyimg{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+.casestudyimg80{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+        margin: auto;
+}
+.casestudy__encuesta {
+    display: flex;
+    margin:auto;
+    width: 60%;
+}
+
+.casestudy__title{
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.casestudy__subtitle{
+    font-weight: 400;
+    font-size: 1.5rem;
+    color:gray;
+}
+.casestudy > p {
+    margin-top: 1rem;
+}
+.casestudy__section--title{
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.casestudy>.casestudy__section--subtitle {
+    margin-top: 2rem;
+        color:gray;
+
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.casestudy__highlightedsection{
+    margin-top:3rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    width: 100%;
+}
+
+.wellness--section{
+    background-color: #d7cbf1;
+}
+
+.taxi--section{
+    background-color: rgb(248, 238, 180);
+}
+
+span,
+blockquote {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+blockquote {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after {
+    content: '';
+    content: none;
+}
+
+blockquote {
+    font-size: 1.15em;
+    margin: 50px auto;
+    font-style: italic;
+    padding: 1.2em 30px 1.2em 75px;
+    border-left: 8px solid black;
+    line-height: 1.6;
+    position: relative;
+    background: transparent;
+}
+
+blockquote::before {
+    font-family: 'Apercu';
+    content: "\201C";
+    color: black;
+    font-size: 4em;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+}
+
+blockquote span {
+    display: block;
+    color: #333333;
+    font-style: normal;
+    font-weight: 800;
+    margin-top: 1em;
+}
+.casestudy__mindmap{
+    width: 100%;
+}
+
+.container__60{
+    width:60%;
+        display: flex;
+        margin:auto;
+}
+.casestudy__icons>*{
+    margin: 1rem;
+}
