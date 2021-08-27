@@ -53,12 +53,12 @@ const Projects = () => {
   };
   const box5Color = {
     backgroundColor: "#fde8cd",
-    title: "Glassmorphism",
+    title: "Hourglass",
     tag: "Web development",
-    description: "Practice with the new UI trend",
+    description: "Website made with React",
     icons: (
       <div>
-        <Html /> <Css />
+        <Html /> <Css /> 
       </div>
     ),
     link: "https://danifdezalonso.github.io/glassmorphism-test/",
@@ -69,7 +69,7 @@ const Projects = () => {
     tag: "Web development",
     icons: (
       <div>
-        <Html /> <Css />
+        <Html /> <Css /> <ReactLogo />
       </div>
     ),
     description: "Responsive web design practice",
