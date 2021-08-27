@@ -9,6 +9,7 @@ import bacweb from "../assets/bac-web.png";
 import Html from "../components/icons/Html";
 import Css from "../components/icons/Css";
 import ProjectCode from "./ProjectCode";
+import ReactLogo from "./icons/ReactLogo";
 
 const Projects = () => {
   const box1Color = {
@@ -55,13 +56,14 @@ const Projects = () => {
     backgroundColor: "#fde8cd",
     title: "Hourglass",
     tag: "Web development",
+    tag2: "React",
     description: "Website made with React",
     icons: (
       <div>
-        <Html /> <Css /> 
+        <Html /> <Css /> <ReactLogo />
       </div>
     ),
-    link: "https://danifdezalonso.github.io/glassmorphism-test/",
+    link: "https://hourglass-dani-ester.netlify.app/",
   };
   const box6Color = {
     backgroundColor: "#eff7e1",
@@ -69,7 +71,7 @@ const Projects = () => {
     tag: "Web development",
     icons: (
       <div>
-        <Html /> <Css /> <ReactLogo />
+        <Html /> <Css />
       </div>
     ),
     description: "Responsive web design practice",
