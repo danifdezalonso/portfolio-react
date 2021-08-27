@@ -1,13 +1,13 @@
 import React from "react";
 import "./Presentation.css";
-import profile from "../assets/profile.jpg";
+import profile from "../assets/profile.jpeg";
 
 const Presentation = () => {
   return (
     <div className="description">
       <div className="description__card">
         <p className="description__personal--header">
-          I'm Dani, a UX/UI designer and front end developer.
+          I'm Dani, a Product Designer and Front End Developer.
         </p>
         <p className="description__personal--subheader">
           I enjoy creating user-centric, empathetic and human experiences with a
