@@ -7,11 +7,15 @@ const Presentation = () => {
     <div className="description">
       <div className="description__card">
         <p className="description__personal--header">
-          I'm Dani, a Product Designer and Front End Developer.
+          I'm Dani, a Product Designer and Jr. Front End Developer.
         </p>
         <p className="description__personal--subheader">
           I enjoy creating user-centric, empathetic and human experiences with a
           focus on detail, quality and results.
+        </p>
+        <p className="description__personal--subheader__work">
+          Currently working as Product Designer for Ubeeqo (Europcar Mobility
+          Group) and as Assistant Professor at UOC.
         </p>
       </div>
       <div className="description__photo">
