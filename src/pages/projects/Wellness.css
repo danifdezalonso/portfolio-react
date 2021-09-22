@@ -9,6 +9,7 @@
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    font-weight: 300;
 }
 .casestudy{
     max-width: 50em;
@@ -31,7 +32,7 @@
     width: 80%;
     display: flex;
     justify-content: center;
-        margin: auto;
+    margin: auto;
 }
 .casestudy__encuesta {
     display: flex;
@@ -46,25 +47,29 @@
 }
 
 .casestudy__subtitle{
-    font-weight: 400;
+    font-weight: 300;
     font-size: 1.5rem;
     color:gray;
 }
 .casestudy > p {
     margin-top: 1rem;
+    font-weight: 300;
+
 }
 .casestudy__section--title{
     margin-top: 2rem;
     font-size: 2rem;
     font-weight: 400;
 }
+
 .casestudy>.casestudy__section--subtitle {
     margin-top: 2rem;
-        color:gray;
-
+    color:gray;
     font-size: 1.5rem;
     font-weight: 400;
 }
+
+
 .casestudy__highlightedsection{
     margin-top:3rem;
     padding-top: 1rem;
