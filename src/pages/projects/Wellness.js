@@ -129,7 +129,7 @@ function Wellness() {
             mano, whatsappeando con mis amigas o llamando por miedo a lo que nos
             pueda pasar. <span> - Anónimo, una de las entrevistadas.</span>
           </blockquote>
-          <h4 className="casestudy__subtitle">Mind Map</h4>
+          <h4 className="casestudy__section--title">Mind Map</h4>
           <p>
             Con todos los datos recopilados, relicé un mind map para conectar
             toda la información y empezar a estudiar la información al detalle.
@@ -145,7 +145,7 @@ function Wellness() {
       </div>
       <div className="container">
         <div className="casestudy">
-          <h4 className="casestudy__subtitle">Empathy map</h4>
+          <h4 className="casestudy__section--title">Empathy map</h4>
           <p>
             La empatía es una pieza esencial de un proceso de diseño centrado en
             las personas. El modo empático es necesario para entender los
@@ -160,7 +160,7 @@ function Wellness() {
             src={Empathy}
             alt="gráfico del empathy map"
           ></img>
-          <h4 className="casestudy__subtitle">Journey</h4>
+          <h4 className="casestudy__section--title">Journey</h4>
           <p>
             Una vez recopilada, organizada y analizada toda la información,
             llegaba la hora de analizar el camino del usuario. En este método
@@ -175,7 +175,7 @@ function Wellness() {
       </div>
       <div className="casestudy__highlightedsection wellness--section">
         <div className="casestudy">
-          <p className="casestudy__subtitle">Problem stament</p>
+          <p className="casestudy__section--title">Problem stament</p>
           <p>
             Hemos observado que la seguridad de las poblaciones actuales no es
             suficiente porque no se está reduciendo el número de víctimas y esto
@@ -188,7 +188,7 @@ function Wellness() {
       </div>
       <div className="container">
         <div className="casestudy">
-          <p className="casestudy__subtitle">Card Sorting</p>
+          <p className="casestudy__section--title">Card Sorting</p>
           <p>
             Llegaba la hora de volver a hablar con los usuarios y conocer sus
             marcos mentales y como organizan la información. El card sorting es
@@ -212,7 +212,7 @@ function Wellness() {
             alt="gráfico del card sorting"
           ></img>
 
-          <p className="casestudy__subtitle">MVP</p>
+          <p className="casestudy__section--title">MVP</p>
           <p>
             El próximo paso era definir el core del producto, con las features
             necesarias para establecer el Producto Mínimo Viable.
@@ -240,7 +240,7 @@ function Wellness() {
             que estaba listo para testear con usuarios potenciales, iterar y
             avanzar.
           </p>
-          <p className="casestudy__subtitle">Evolución del diseño</p>
+          <p className="casestudy__section--title">Evolución del diseño</p>
           <p>
             Una vez que definido el MVP y el flujo de usuarios, estaba listo
             para comenzar a generar ideas e iteraciones. Comencé a crear un
@@ -274,7 +274,7 @@ function Wellness() {
             src={WellnessEvolution}
             alt="tabla reflejando los datos de la encuesta"
           ></img>
-          <p className="casestudy__subtitle">
+          <p className="casestudy__section--title">
             Prototipo interactivo y video promocional
           </p>
           <p>
@@ -306,7 +306,9 @@ function Wellness() {
               </div>
             </a>
           </div>
-          <p className="casestudy__subtitle">Tools used in the whole process</p>
+          <p className="casestudy__section--title">
+            Tools used in the whole process
+          </p>
           <div className="casestudy__icons">
             <Sketch />
             <Invision />

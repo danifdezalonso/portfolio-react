@@ -14,8 +14,19 @@ const Presentation = () => {
           focus on detail, quality and results.
         </p>
         <p className="description__personal--subheader__work">
-          Currently working as Product Designer for Ubeeqo (Europcar Mobility
-          Group) and as Assistant Professor at UOC.
+          Currently working as Product Designer for{" "}
+          <a href="https://ubeeqo.com/" target="_blank" rel="noreferrer">
+            Ubeeqo
+          </a>{" "}
+          and as UX/UI Assistant Professor at{" "}
+          <a
+            href="https://www.uoc.edu/portal/en/index.html"
+            target="_blank"
+            rel="noreferrer"
+          >
+            UOC
+          </a>
+          .
         </p>
       </div>
       <div className="description__photo">

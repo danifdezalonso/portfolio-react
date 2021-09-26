@@ -11,9 +11,26 @@
     margin-left: auto;
     font-weight: 300;
 }
+
+.container > p {
+    margin-top: 1rem;
+}
+.container > ul {
+    margin-top: 1rem;
+}
+
+.container>ul>li {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    font-size: 1.25rem;
+}
+
 .casestudy{
     max-width: 50em;
     margin: auto;
+}
+p {
+    font-size: 1.25rem;
 }
 
 .casestudy > ul {
@@ -57,7 +74,8 @@
 
 }
 .casestudy__section--title{
-    margin-top: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
     font-size: 2rem;
     font-weight: 400;
 }
