@@ -103,10 +103,28 @@
     #logo>a{
         font-size: 1.5rem;
     }
-    .header__navigation__list>li{
-        padding: 0.5rem;
+    .header__navigation__list{
+        margin: 1rem 0rem 1rem 0rem;
     }
-    #aboutli{
+    .header__navigation__list>li{
+        padding: 0.25rem;
+    }
+       .header__navigation__list>a{
+           padding: 0.5rem;
+       }
+    .header__navigation__list>a >li {
+        font-size: 0.8rem;
+    }
+    #contactli{
+            background: -webkit-linear-gradient(90deg, #ad2570, #d5344d);
+            background: linear-gradient(90deg, #ad2570, #d5344d);
+            color: white;
+            border-radius: 2px;
+
+    }
+}
+@media screen and (max-width: 350px) {
+    #contactli {
         display: none;
     }
 }

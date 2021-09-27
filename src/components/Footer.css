@@ -67,3 +67,18 @@
         font-size: 1rem;
     }
 }
+
+@media screen and (max-width: 350px) {
+
+    .footer__socialmedia {
+        display: none;
+    }
+    
+    .footer__description{
+        font-size: 1.5rem;
+    }
+    
+    .footer__description > a {
+        font-size: 1rem;
+    }
+}

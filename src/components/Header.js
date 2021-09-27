@@ -22,6 +22,7 @@ const Header = () => {
               <li id="projectli">Projects</li>
             </Link>
             <a
+              id="contactli"
               target="_blank"
               rel="noreferrer"
               href="mailto:danifdezalonso@gmail.com?subject=I've%20seen%20your%20portfolio%20and..."
