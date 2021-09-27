@@ -18,7 +18,7 @@ const Presentation = () => {
           <a href="https://ubeeqo.com/" target="_blank" rel="noreferrer">
             Ubeeqo
           </a>{" "}
-          and as UX/UI Assistant Professor at{" "}
+          and as UX/UI Assistant Professor for{" "}
           <a
             href="https://www.uoc.edu/portal/en/index.html"
             target="_blank"

@@ -37,6 +37,7 @@
     font-size: 1.25rem;
     color:#888888;
     font-weight: 300;
+    max-width: 640px;
 }
 
 .description__photo {

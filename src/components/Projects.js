@@ -6,6 +6,8 @@ import wellnessapp from "../assets/wellness-app.png";
 import movingapp from "../assets/moving-app.png";
 import daliweb from "../assets/dali-web.png";
 import bacweb from "../assets/bac-web.png";
+import hourglass from "../assets/hourglass.png";
+import responsiveweb from "../assets/responsive-web.png";
 import Html from "../components/icons/Html";
 import Css from "../components/icons/Css";
 import ProjectCode from "./ProjectCode";
@@ -57,7 +59,8 @@ const Projects = () => {
     title: "Hourglass",
     tag: "Web development",
     tag2: "React",
-    description: "Website made with React",
+    description:
+      "Website made with React as a final project for the front-end Bootcamp made in 2021. With an adaptative design for make it easier for mobile user, its a product for exchange our time for others. I added few back-end things with Firebase, but still in a work in progress mode.",
     icons: (
       <div>
         <Html /> <Css /> <ReactLogo />
@@ -74,7 +77,8 @@ const Projects = () => {
         <Html /> <Css />
       </div>
     ),
-    description: "Responsive web design practice",
+    description:
+      "Responsive web design made with basic html, css and JS for practice my development skills. ",
     link: "https://danifdez-marketplace-responsivebootcamp.netlify.app/",
   };
 
@@ -90,6 +94,7 @@ const Projects = () => {
         mockup={box1Color.mockup}
         alt={box1Color.alt}
       />
+
       <Project
         color={box2Color.backgroundColor}
         title={box2Color.title}
@@ -122,6 +127,7 @@ const Projects = () => {
         title={box5Color.title}
         tag={box5Color.tag}
         description={box5Color.description}
+        image={hourglass}
         icons={box5Color.icons}
         link={box5Color.link}
         mockup={box5Color.mockup}
@@ -131,6 +137,7 @@ const Projects = () => {
         title={box6Color.title}
         tag={box6Color.tag}
         description={box6Color.description}
+        image={responsiveweb}
         icons={box6Color.icons}
         link={box6Color.link}
         mockup={box6Color.mockup}

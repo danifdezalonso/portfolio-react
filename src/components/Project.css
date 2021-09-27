@@ -3,11 +3,19 @@
     margin:0;
     padding: 0;
 }
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
 .project__box{
     width: 40%;
     margin: 3rem 1rem;
     border-radius: 1rem;
     }
+.project__box:hover{
+    box-shadow: 5px 5px;
+}
 
 .project__title{
     margin-top: 2rem;
@@ -24,7 +32,7 @@
 }
 .project__description{
     margin:1rem 2rem;
-    min-height: 120px;
+    min-height: 200px;
 }
 .project__link{
     margin-bottom: 2rem;
@@ -44,7 +52,8 @@
     justify-content: center;
 }
 .project__image > img{
-    margin-bottom: -15%;}
+    margin-bottom: -15%;
+width: 400px;}
 
 @media screen and (max-width: 600px) {
     .project__box {
