@@ -175,7 +175,7 @@ function Wellness() {
       </div>
       <div className="casestudy__highlightedsection wellness--section">
         <div className="casestudy">
-          <p className="casestudy__section--title">Problem stament</p>
+          <h4 className="casestudy__section--title">Problem statement</h4>
           <p>
             Hemos observado que la seguridad de las poblaciones actuales no es
             suficiente porque no se está reduciendo el número de víctimas y esto
@@ -188,7 +188,7 @@ function Wellness() {
       </div>
       <div className="container">
         <div className="casestudy">
-          <p className="casestudy__section--title">Card Sorting</p>
+          <h4 className="casestudy__section--title">Card Sorting</h4>
           <p>
             Llegaba la hora de volver a hablar con los usuarios y conocer sus
             marcos mentales y como organizan la información. El card sorting es
@@ -212,7 +212,7 @@ function Wellness() {
             alt="gráfico del card sorting"
           ></img>
 
-          <p className="casestudy__section--title">MVP</p>
+          <h4 className="casestudy__section--title">MVP</h4>
           <p>
             El próximo paso era definir el core del producto, con las features
             necesarias para establecer el Producto Mínimo Viable.
@@ -240,7 +240,7 @@ function Wellness() {
             que estaba listo para testear con usuarios potenciales, iterar y
             avanzar.
           </p>
-          <p className="casestudy__section--title">Evolución del diseño</p>
+          <h4 className="casestudy__section--title">Evolución del diseño</h4>
           <p>
             Una vez que definido el MVP y el flujo de usuarios, estaba listo
             para comenzar a generar ideas e iteraciones. Comencé a crear un
@@ -274,9 +274,10 @@ function Wellness() {
             src={WellnessEvolution}
             alt="tabla reflejando los datos de la encuesta"
           ></img>
-          <p className="casestudy__section--title">
+          <h4 className="casestudy__section--title">
             Prototipo interactivo y video promocional
-          </p>
+          </h4>
+
           <p>
             Clica en la pantalla para interactuar con toda la app. Tendrás que
             realizar todo el proceso de registro y recuerda que InVision no
@@ -306,9 +307,9 @@ function Wellness() {
               </div>
             </a>
           </div>
-          <p className="casestudy__section--title">
+          <h4 className="casestudy__section--title">
             Tools used in the whole process
-          </p>
+          </h4>
           <div className="casestudy__icons">
             <Sketch />
             <Invision />

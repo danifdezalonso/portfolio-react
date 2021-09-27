@@ -9,6 +9,11 @@
     margin-right: auto;
     margin-left: auto;
 }
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
 
 @media screen and (max-width: 600px) {
     .projects{

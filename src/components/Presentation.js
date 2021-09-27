@@ -14,19 +14,8 @@ const Presentation = () => {
           focus on detail, quality and results.
         </p>
         <p className="description__personal--subheader__work">
-          Currently working as Product Designer for{" "}
-          <a href="https://ubeeqo.com/" target="_blank" rel="noreferrer">
-            Ubeeqo
-          </a>{" "}
-          and as UX/UI Assistant Professor for{" "}
-          <a
-            href="https://www.uoc.edu/portal/en/index.html"
-            target="_blank"
-            rel="noreferrer"
-          >
-            UOC
-          </a>
-          .
+          Currently working as Product Designer for Ubeeqo and as UX/UI
+          Assistant Professor for UOC. And learning front-end in my spare time.
         </p>
       </div>
       <div className="description__photo">

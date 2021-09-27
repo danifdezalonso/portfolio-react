@@ -39,11 +39,17 @@ p {
 
 .casestudy>ul>li {
     margin: 0rem 0rem 0.5rem 0rem;
+    font-size: 1.25rem;
+    margin-left: 2.5rem;
 }
 .casestudyimg{
     margin-top: 1rem;
     margin-bottom: 2rem;
     width: 100%;
+}
+
+.casestudy > img {
+    margin-top: 1rem;
 }
 .casestudyimg80{
     width: 80%;
