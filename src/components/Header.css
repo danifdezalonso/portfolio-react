@@ -109,9 +109,10 @@
     .header__navigation__list>li{
         padding: 0.25rem;
     }
-       .header__navigation__list>a{
-           padding: 0.5rem;
-       }
+    .header__navigation__list>a{
+        padding: 0.5rem;
+    }
+
     .header__navigation__list>a >li {
         font-size: 0.8rem;
     }
