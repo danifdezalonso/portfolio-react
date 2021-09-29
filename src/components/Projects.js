@@ -14,6 +14,16 @@ import ProjectCode from "./ProjectCode";
 import ReactLogo from "./icons/ReactLogo";
 
 const Projects = () => {
+  const box0Color = {
+    backgroundColor: "#b7f5de",
+    title: "Europcar's project",
+    tag: "Mobile design",
+    description:
+      "EMOBG OPS App is an app for check the cars after the return. App used my hunders of employees around the world.",
+    link: "#",
+    mockup: { width: "40%", height: "40%" },
+    alt: "App mockup",
+  };
   const box1Color = {
     backgroundColor: "#CABBE9",
     title: "Wellness project",
