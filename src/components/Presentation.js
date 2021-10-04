@@ -15,7 +15,7 @@ const Presentation = () => {
         </p>
         <p className="description__personal--subheader__work">
           Currently working as Product Designer for Ubeeqo and as UX/UI
-          Assistant Professor for UOC. And learning front-end in my spare time.
+          Assistant Professor for UOC. Learning front-end in my spare time.
         </p>
       </div>
       <div className="description__photo">

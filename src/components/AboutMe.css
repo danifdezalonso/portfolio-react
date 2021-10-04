@@ -75,8 +75,8 @@ a {
 
 @media screen and (max-width: 600px) {
     .aboutme {
-        margin-right: 0.5rem;
-        margin-left: 0.5rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
     }
 
     .aboutme__header {
